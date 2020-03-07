@@ -18,3 +18,13 @@ h1 {
 em {    /*children can override properties inherited from parent elements --> the font-family in body*/
     font-family: Serif, serif;
 }
+
+p.green-tea{
+    color: green;
+}
+p.blueberry{
+    color: purple;
+}
+p.raspberry{
+    color: blue;
+}
