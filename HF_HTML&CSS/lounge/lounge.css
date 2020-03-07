@@ -1,10 +1,20 @@
+/* ctrl + f5 --> force refresh*/
+body {  /*some properties are inherited, like font-family. All children of <body> will inherit this property*/
+    font-family: sans-serif;
+}
+
 p {
     color: maroon;
 }
 
 h1, h2 {
-    font-family: sans-serif;
-    color: gray;
+    color: grey;
 }
 
-h1{border-bottom: 1px solid black;}
+h1 {
+    border-bottom: 1px solid black;
+}
+
+em {    /*children can override properties inherited from parent elements --> the font-family in body*/
+    font-family: Serif, serif;
+}
