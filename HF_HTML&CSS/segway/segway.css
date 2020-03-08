@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Rubik;
+    src: url("fonts/Rubik-Regular.eot");
+    src: url("fonts/Rubik-Regular.woff") format('woff');
+}
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+h1{
+    font-family: Rubik, sans-serif;
+}
