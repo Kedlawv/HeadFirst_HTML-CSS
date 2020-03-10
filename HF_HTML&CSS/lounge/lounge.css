@@ -39,6 +39,7 @@ h2 {
     text-align: center;
     background: url("images/cocktail.gif") repeat-x;
     line-height: 1;
+    float: right;
 }
 
 #elixirs h2 { /*descendant selector | select h2 only if its a child of element with id elixirs*/
@@ -47,6 +48,10 @@ h2 {
 
 #elixirs h3 {
     color: #d12c47;
+}
+
+#main{
+    width:auto;
 }
 
 #footer {
@@ -64,12 +69,14 @@ h2 {
     font-weight: bold;
 }
 
-#elixirs a:link {       /*a:link is a pseudo-class*/
+#elixirs a:link { /*a:link is a pseudo-class*/
     color: #007e7e;
 }
+
 #elixirs a:visited {
     color: #333333;
 }
+
 #elixirs a:hover {
     background: #f88396;
     color: #0d5353;
