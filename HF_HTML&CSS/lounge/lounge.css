@@ -1,17 +1,20 @@
 body {
     font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
 }
+
 h1, h2 {
     color: #007e7e;
 }
+
 h1 {
     font-size: 150%;
 }
+
 h2 {
     font-size: 130%;
 }
 
-#guarantee{
+#guarantee {
     border-color: white;
     border-width: 1px;
     border-style: dashed;
@@ -21,8 +24,8 @@ h2 {
     margin: 30px 250px 30px 30px;
     line-height: 1.9em;
     font-style: italic;
-    font-family: Georgia,"Times New Roman", Times, serif;
-    color:#444444;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #444444;
     background-image: url(images/background.gif);
     background-repeat: no-repeat;
     background-position: top left;
@@ -30,7 +33,7 @@ h2 {
 
 #elixirs {
     border: thin solid #007e7e;
-    width:200px;
+    width: 200px;
     padding: 0px 20px 20px 20px; /*top right bottom left*/
     margin-left: 20px;
     text-align: center;
@@ -38,16 +41,36 @@ h2 {
     line-height: 1;
 }
 
-#elixirs h2 {       /*descendant selector | select h2 only if its a child of element with id elixirs*/
+#elixirs h2 { /*descendant selector | select h2 only if its a child of element with id elixirs*/
     color: black;
 }
+
 #elixirs h3 {
     color: #d12c47;
 }
 
-#footer{
+#footer {
     font-size: 50%;
     text-align: center;
     line-height: normal;
     margin-top: 30px;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+#elixirs a:link {       /*a:link is a pseudo-class*/
+    color: #007e7e;
+}
+#elixirs a:visited {
+    color: #333333;
+}
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
 }
