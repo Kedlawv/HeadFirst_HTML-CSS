@@ -20,6 +20,12 @@ body {
     height: 108px;
 }
 
+#award {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
+
 #headerSlogan {
     float: right;
 }
