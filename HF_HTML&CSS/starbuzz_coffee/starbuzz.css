@@ -26,6 +26,15 @@ body {
     left: 50%;
 }
 
+#ticket{
+    position: fixed;
+    top:350px;
+    left:-80px
+}
+#ticket a,img{
+    border:none;
+}
+
 #headerSlogan {
     float: right;
 }
