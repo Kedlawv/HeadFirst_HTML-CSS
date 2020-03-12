@@ -19,6 +19,13 @@ body {
   height:           108px;
 }
 
+#drinks {
+  display:table-cell;
+  background-color: #efe5d0;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+}
 #main {
   display:table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
@@ -30,6 +37,7 @@ body {
 #sidebar {
   display:table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
+  width:20%;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
