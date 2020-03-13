@@ -1,4 +1,4 @@
-body, article header {
+body {
     background-color: #b5a789;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: small;
@@ -14,7 +14,7 @@ body, article header {
     display: table-row;
 }
 
-header {
+header.top {
     background-color: #675c47;
     margin: 10px 10px 0px 10px;
     height: 108px;
@@ -35,7 +35,7 @@ header {
     border:none;
 }
 
-#headerSlogan {
+header.top #headerSlogan {
     float: right;
 }
 
@@ -97,4 +97,31 @@ a:visited {
     color: #675c47;
     text-decoration: none;
     border-bottom: thin dotted #675c47;
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul{
+    background-color: #efe5d0;
+    margin: 0;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: #954b4b;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+nav ul li.selected {
+    background-color: #c8b99c;
 }
