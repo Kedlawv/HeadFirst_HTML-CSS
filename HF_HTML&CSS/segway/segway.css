@@ -69,3 +69,7 @@ tr.light-orange {
 tr.light-grey {
     background-color: lightgrey;
 }
+
+table table th{
+    background-color: inherit;
+}
