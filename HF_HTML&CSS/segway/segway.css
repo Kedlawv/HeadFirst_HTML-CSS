@@ -3,24 +3,45 @@
     src: url("fonts/Rubik-Regular.eot");
     src: url("fonts/Rubik-Regular.woff") format('woff');
 }
+
 body {
     font-family: Verdana, Geneva, Arial, sans-serif;
     font-size: small;
 }
 
-h1,h2{
+h1, h2 {
     color: #cc6600;
     border-bottom: solid 1px;
 }
 
-h1{
+h1 {
     font-family: Rubik, sans-serif;
     font-size: 220%;
 }
-h2{
+
+h2 {
     font-size: 130%;
     font-weight: normal;
 }
-blockquote{
+
+blockquote {
     font-style: italic;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    border-spacing: 0;
+}
+
+td, th {
+    border: thin dotted grey;
+    padding: 5px;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
 }
